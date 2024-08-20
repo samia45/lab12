@@ -1,0 +1,107 @@
+.h1{
+    text-decoration:underline solid ;
+    text-decoration-color: darkmagenta;
+    text-align: center;
+    color: brown;
+}
+.pic{
+    display: flex;
+    justify-content:center;
+
+}
+.p1{
+    text-decoration: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 35px;
+    color: darkgreen;
+
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #cad4d7;
+    padding: 20px;
+    border-radius: 4px;
+    }
+    .box {
+    background-color: #e0e9c6;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #b4dc83;
+    }
+    
+    .h2{
+        text-align: center;
+        text-decoration: underline cornflowerblue;
+        color: #4831b0;
+    }
+    .ul1{
+        list-style-type: circle;
+        padding-left: 100px;
+margin-top: 40px;
+font-size: 30px;
+    }
+    .h3{
+        text-align: center;
+        text-decoration: underline cornflowerblue;
+        color: rgb(94, 67, 135);
+    }
+    .ol1{
+        font-size: 30px;
+        margin-top: 40px;
+        margin-left:110px;
+    }
+    
+    .h4{
+        text-align: center;
+        text-decoration: underline cornflowerblue;
+        color:#5a48aa;
+    }
+    .table1{
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 50px;
+
+     }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        }
+        th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        }
+        th {
+        background-color: #4831b0;
+        color: white;
+        }
+        tr:hover {
+        background-color: #f5f5f5;
+        }
+        .outer{
+            width: 80%;
+            margin-left: 100px;
+            margin-right: 50px;
+            background-color: #c2cbea;
+            padding: 10px; 
+        }
+        .row {
+            display:grid;
+            }
+            .column {
+            flex: 50%;
+            padding: 10px;
+            }
+            .box {
+            
+            background-color: #9f99e0;
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            font-size: 30px;
+            
+            }
+          
